@@ -18,6 +18,20 @@ body nav li a {
   font-weight: 600;
 }
 
+body nav .fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+
+body nav .navbar-toggler {
+  border: none !important;
+}
+
+body nav .navbar-toggler:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 body .navbar {
   background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
   background-image: linear-gradient(to right, #a517ba, #5f1782);
