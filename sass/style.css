@@ -36,4 +36,22 @@ body .navbar {
   background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
   background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
+
+body .firstSection {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+  padding-top: 5%;
+}
+
+body .firstSection h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+body .firstSection .col-lg-6:first-child img {
+  width: 45px;
+  margin: 20px;
+}
 /*# sourceMappingURL=style.css.map */

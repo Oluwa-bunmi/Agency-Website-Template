@@ -6,11 +6,10 @@ body {
     top: 0;
     li {
       padding: 0 10px;
-      
+
       a {
         color: #fff !important;
         font-weight: 600;
-    
       }
     }
     .fa-bars {
@@ -18,15 +17,30 @@ body {
       font-size: 30px !important;
     }
     .navbar-toggler {
-    
       border: none !important;
-      &:focus{
-        
-          box-shadow: none !important;
+      &:focus {
+        box-shadow: none !important;
       }
     }
   }
   .navbar {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
   }
+.firstSection{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+    .col-lg-6:first-child{
+        img{
+
+            width: 45px;
+            margin: 20px;
+        }
+    }
+}
 }
