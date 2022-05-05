@@ -1,2 +1,20 @@
-
+body{
+    font-family: sans-serif;
+   nav{
+       position: sticky;
+       z-index: 10;
+       top: 0;
+       li{
+           padding: 0 10px;
+           a{
+               color: #fff !important;
+               font-weight: 600;
+           }
+       }
+   }
+        .navbar{
+            background-image: linear-gradient(to right, #a517ba,#5f1782);
+        }
+    
+}
 

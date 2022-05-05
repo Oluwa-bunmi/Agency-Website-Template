@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: sans-serif;
+}
+
+body nav {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+
+body nav li {
+  padding: 0 10px;
+}
+
+body nav li a {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+body .navbar {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+/*# sourceMappingURL=style.css.map */
