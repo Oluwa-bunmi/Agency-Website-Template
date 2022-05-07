@@ -56,6 +56,18 @@ body {
     }
   }
   .secondSection {
+      h2{
+          text-align: center;
+      }
+      h2::before{
+          content: '';
+          background-color: #7b1798;
+          width: 200px;
+          height: 5px;
+          margin: auto;
+          display: block;
+          transform: translateY(63px);
+      }
     img {
       width: 100px;
       margin-top: 20px;

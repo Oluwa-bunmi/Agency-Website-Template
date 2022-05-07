@@ -73,6 +73,21 @@ body .firstSection .col-lg-6:first-child a {
   font-size: 19px;
 }
 
+body .secondSection h2 {
+  text-align: center;
+}
+
+body .secondSection h2::before {
+  content: '';
+  background-color: #7b1798;
+  width: 200px;
+  height: 5px;
+  margin: auto;
+  display: block;
+  -webkit-transform: translateY(63px);
+          transform: translateY(63px);
+}
+
 body .secondSection img {
   width: 100px;
   margin-top: 20px;
