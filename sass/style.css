@@ -123,6 +123,13 @@ body .secondSection h2::after {
   }
 }
 
+@media screen and (min-width: 1011px) {
+  body .secondSection h2::after {
+    -webkit-transform: translateY(12px);
+            transform: translateY(12px);
+  }
+}
+
 body .secondSection img {
   width: 100px;
   margin-top: 20px;
