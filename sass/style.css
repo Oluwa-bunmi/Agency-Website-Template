@@ -54,4 +54,9 @@ body .firstSection .col-lg-6:first-child img {
   width: 45px;
   margin: 20px;
 }
+
+body .firstSection .col-lg-6:first-child a {
+  text-decoration: none;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
