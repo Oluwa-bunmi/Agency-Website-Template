@@ -162,7 +162,6 @@ body .secondSection .btn {
 body .thirdSection {
   background-color: #f8f9fa;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 body .thirdSection h2 {
@@ -220,5 +219,16 @@ body .thirdSection h2::after {
     -webkit-transform: translateY(12px);
             transform: translateY(12px);
   }
+}
+
+body .thirdSection h3 {
+  font-size: 33px;
+  margin-top: 8%;
+}
+
+body .thirdSection li {
+  font-size: 19px;
+  list-style-type: circle;
+  margin: 10px 0;
 }
 /*# sourceMappingURL=style.css.map */
