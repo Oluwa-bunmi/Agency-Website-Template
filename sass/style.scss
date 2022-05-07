@@ -62,11 +62,41 @@ body {
       h2::before{
           content: '';
           background-color: #7b1798;
-          width: 200px;
+          width: 160px;
           height: 5px;
-          margin: auto;
+        margin: {
+            left: auto;
+            right: auto;
+        }
           display: block;
-          transform: translateY(63px);
+          transform: translateY(57px);
+      }
+      h2::after{
+          content: '';
+          background-color: #7b1798;
+          width: 50px;
+          height: 10px;
+           margin: {
+            left: auto;
+            right: auto;
+        }
+          margin-bottom: 40px;
+          display: block;
+          transform: translateY(20px);
+          @media screen and (min-width:531px){
+              transform: translateY(19px);
+              
+          }
+          @media screen and (min-width:669px){
+transform: translateY(16px);
+          }
+          @media screen and (min-width:918px){
+transform: translateY(15px);
+          }
+          @media screen and (min-width:1011px){
+transform: translateY(12px);
+          }
+      }
       }
     img {
       width: 100px;
