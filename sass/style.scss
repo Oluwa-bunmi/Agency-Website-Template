@@ -177,4 +177,51 @@ body {
           margin: 10px 0;
     }
   }
+  .testimonials{
+      margin: 100px 0;
+         h2 {
+      text-align: center;
+    }
+    h2::before {
+      content: "";
+      background-color: #7b1798;
+      width: 160px;
+      height: 5px;
+      margin: {
+        left: auto;
+        right: auto;
+      }
+      display: block;
+      transform: translateY(57px);
+    }
+    h2::after {
+      content: "";
+      background-color: #7b1798;
+      width: 50px;
+      height: 10px;
+      margin: {
+        left: auto;
+        right: auto;
+      }
+      margin-bottom: 40px;
+      display: block;
+      transform: translateY(20px);
+      @media screen and (min-width: 531px) {
+        transform: translateY(19px);
+      }
+      @media screen and (min-width: 669px) {
+        transform: translateY(16px);
+      }
+      @media screen and (min-width: 918px) {
+        transform: translateY(15px);
+      }
+      @media screen and (min-width: 1011px) {
+        transform: translateY(12px);
+      }
+    }
+    .col-lg-5{
+        border-left: 4px solid #7b1798;
+    }
+
+  }
 }
