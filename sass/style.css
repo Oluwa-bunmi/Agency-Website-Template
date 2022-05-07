@@ -44,10 +44,15 @@ body .firstSection {
   padding-top: 5%;
 }
 
-body .firstSection h1 {
+body .firstSection .col-lg-6:first-child h1 {
   font-size: 40px;
   font-weight: 600;
   margin-top: 100px;
+}
+
+body .firstSection .col-lg-6:first-child p {
+  line-height: 30px;
+  font-size: 19px;
 }
 
 body .firstSection .col-lg-6:first-child img {
@@ -58,5 +63,6 @@ body .firstSection .col-lg-6:first-child img {
 body .firstSection .col-lg-6:first-child a {
   text-decoration: none;
   color: #fff;
+  font-size: 19px;
 }
 /*# sourceMappingURL=style.css.map */

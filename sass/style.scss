@@ -30,12 +30,17 @@ body {
     background-image: linear-gradient(to right, #a517ba,#5f1782);
     color: #fff;
     padding-top: 5%;
-    h1{
-        font-size: 40px;
-        font-weight: 600;
-        margin-top: 100px;
-    }
     .col-lg-6:first-child{
+        h1{
+            font-size: 40px;
+            font-weight: 600;
+            margin-top: 100px;
+            
+        }
+        p{
+            line-height: 30px;
+            font-size: 19px;
+        }
         img{
 
             width: 45px;
@@ -44,7 +49,9 @@ body {
         a{
             text-decoration: none;
             color: #fff;
+            font-size: 19px;
         }
     }
+  
 }
 }
