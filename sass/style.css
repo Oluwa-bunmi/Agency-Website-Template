@@ -72,4 +72,20 @@ body .firstSection .col-lg-6:first-child a {
   color: #fff;
   font-size: 19px;
 }
+
+body .secondSection img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+body .secondSection h4 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+body .secondSection p {
+  line-height: 30px;
+  font-size: 19px;
+}
 /*# sourceMappingURL=style.css.map */
