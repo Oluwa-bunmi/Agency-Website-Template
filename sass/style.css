@@ -145,4 +145,13 @@ body .secondSection p {
   line-height: 30px;
   font-size: 19px;
 }
+
+body .secondSection .btn {
+  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 8px 35px;
+  color: #fff;
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
