@@ -317,4 +317,10 @@ body .testimonials .col-lg-5 .details img {
   border-radius: 50%;
   margin: 0 35px 0 10px;
 }
+
+@media screen and (max-width: 991px) {
+  body .testimonials .col-lg-5:nth-child(2) {
+    margin-top: 60px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
