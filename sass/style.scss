@@ -243,4 +243,22 @@ body {
       }
     }
   }
+  .media{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    h2{
+      text-transform: uppercase;
+      font-size: 33px;
+      margin-bottom: 40px;
+      & + div{
+        img{
+          width: 60px;
+          transition: 0.5s;
+        }
+      }
+    }
+    a:hover img{
+      transform: translateY(-10px);
+    }
+  }
 }

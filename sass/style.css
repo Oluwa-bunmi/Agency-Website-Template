@@ -323,4 +323,26 @@ body .testimonials .col-lg-5 .details img {
     margin-top: 60px;
   }
 }
+
+body .media {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+body .media h2 {
+  text-transform: uppercase;
+  font-size: 33px;
+  margin-bottom: 40px;
+}
+
+body .media h2 + div img {
+  width: 60px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .media a:hover img {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
 /*# sourceMappingURL=style.css.map */
