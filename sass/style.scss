@@ -264,6 +264,11 @@ body {
   footer{
      background-image: linear-gradient(to right, #a517ba, #5f1782);
      color: #fff;
+    
+     p{
+           line-height: 30px;
+    font-size: 17.4px;
+     }
      .col-lg-4:first-child{
        img{
          width: 120px;
@@ -278,6 +283,25 @@ body {
        border-radius: 2px;
        padding-top: 7px;
         background-image: linear-gradient(to right, #a517ba, #5f1782);
+     }
+     .form-control{
+       box-shadow: none !important;
+       border-radius: 0;
+       border: none;
+       max-width: 250px;
+       margin-top: 25px;
+     }
+     .btn{
+       
+           background-image: linear-gradient(to right, #a517ba, #5f1782);
+           margin-top: 30px;
+          border: none;
+
+     }
+    
+     hr + p{
+       margin-bottom: 0;
+       padding-bottom: 20px;
      }
 
   }

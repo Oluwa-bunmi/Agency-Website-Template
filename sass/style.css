@@ -351,6 +351,11 @@ body footer {
   color: #fff;
 }
 
+body footer p {
+  line-height: 30px;
+  font-size: 17.4px;
+}
+
 body footer .col-lg-4:first-child img {
   width: 120px;
 }
@@ -365,5 +370,26 @@ body footer .fa {
   padding-top: 7px;
   background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
   background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+body footer .form-control {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 0;
+  border: none;
+  max-width: 250px;
+  margin-top: 25px;
+}
+
+body footer .btn {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  margin-top: 30px;
+  border: none;
+}
+
+body footer hr + p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
