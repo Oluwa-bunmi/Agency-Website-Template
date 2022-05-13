@@ -73,15 +73,15 @@ body .firstSection .col-lg-6:first-child a {
   font-size: 19px;
 }
 
-body .secondSection {
+body #secondSection {
   margin-bottom: 60px;
 }
 
-body .secondSection h2 {
+body #secondSection h2 {
   text-align: center;
 }
 
-body .secondSection h2::before {
+body #secondSection h2::before {
   content: "";
   background-color: #7b1798;
   width: 160px;
@@ -93,7 +93,7 @@ body .secondSection h2::before {
           transform: translateY(57px);
 }
 
-body .secondSection h2::after {
+body #secondSection h2::after {
   content: "";
   background-color: #7b1798;
   width: 50px;
@@ -107,50 +107,50 @@ body .secondSection h2::after {
 }
 
 @media screen and (min-width: 531px) {
-  body .secondSection h2::after {
+  body #secondSection h2::after {
     -webkit-transform: translateY(19px);
             transform: translateY(19px);
   }
 }
 
 @media screen and (min-width: 669px) {
-  body .secondSection h2::after {
+  body #secondSection h2::after {
     -webkit-transform: translateY(16px);
             transform: translateY(16px);
   }
 }
 
 @media screen and (min-width: 918px) {
-  body .secondSection h2::after {
+  body #secondSection h2::after {
     -webkit-transform: translateY(15px);
             transform: translateY(15px);
   }
 }
 
 @media screen and (min-width: 1011px) {
-  body .secondSection h2::after {
+  body #secondSection h2::after {
     -webkit-transform: translateY(12px);
             transform: translateY(12px);
   }
 }
 
-body .secondSection img {
+body #secondSection img {
   width: 100px;
   margin-top: 20px;
 }
 
-body .secondSection h4 {
+body #secondSection h4 {
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-body .secondSection p {
+body #secondSection p {
   line-height: 30px;
   font-size: 19px;
 }
 
-body .secondSection .btn {
+body #secondSection .btn {
   border-radius: 20px;
   background-image: -webkit-gradient(linear, left top, right top, from(#a517ba), to(#5f1782));
   background-image: linear-gradient(to right, #a517ba, #5f1782);
@@ -159,17 +159,17 @@ body .secondSection .btn {
   font-size: 18px;
 }
 
-body .thirdSection {
+body #thirdSection {
   background-color: #f8f9fa;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-body .thirdSection h2 {
+body #thirdSection h2 {
   text-align: center;
 }
 
-body .thirdSection h2::before {
+body #thirdSection h2::before {
   content: "";
   background-color: #7b1798;
   width: 160px;
@@ -181,7 +181,7 @@ body .thirdSection h2::before {
           transform: translateY(57px);
 }
 
-body .thirdSection h2::after {
+body #thirdSection h2::after {
   content: "";
   background-color: #7b1798;
   width: 50px;
@@ -195,39 +195,39 @@ body .thirdSection h2::after {
 }
 
 @media screen and (min-width: 531px) {
-  body .thirdSection h2::after {
+  body #thirdSection h2::after {
     -webkit-transform: translateY(19px);
             transform: translateY(19px);
   }
 }
 
 @media screen and (min-width: 669px) {
-  body .thirdSection h2::after {
+  body #thirdSection h2::after {
     -webkit-transform: translateY(16px);
             transform: translateY(16px);
   }
 }
 
 @media screen and (min-width: 918px) {
-  body .thirdSection h2::after {
+  body #thirdSection h2::after {
     -webkit-transform: translateY(15px);
             transform: translateY(15px);
   }
 }
 
 @media screen and (min-width: 1011px) {
-  body .thirdSection h2::after {
+  body #thirdSection h2::after {
     -webkit-transform: translateY(12px);
             transform: translateY(12px);
   }
 }
 
-body .thirdSection h3 {
+body #thirdSection h3 {
   font-size: 33px;
   margin-top: 8%;
 }
 
-body .thirdSection li {
+body #thirdSection li {
   font-size: 19px;
   list-style-type: circle;
   margin: 10px 0;
